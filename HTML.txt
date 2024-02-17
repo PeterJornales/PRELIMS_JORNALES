@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Joshua Jornales's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Open Sans', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #eef1f5; 
+            color: #333;
+            line-height: 1.6;
+        }
+        .container { 
+            width: 80%; 
+            margin: 40px auto; 
+            background: #fff; 
+            padding: 20px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        hr { 
+            margin-top: 20px; 
+            border: 0; 
+            border-top: 1px solid #eee;
+        }
+        .personal-statement { 
+            font-style: italic;
+            color: #555;
+        }
+        h1, h2 {
+            color: #222;
+        }
+        h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-weight: 600;
+            color: #2a7ae2;
+        }
+        img {
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px;
+        }
+        th, td { 
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: left;
+        }
+        th { 
+            background-color: #f2f2f2; 
+            font-weight: 600;
+        }
+        td {
+            font-weight: 400;
+            color: #555;
+        }
+        a {
+            color: #2a7ae2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="IMG_6447.png" alt="Peter Joshua Jornales" style="width:100px;height:100px;">
+        <h1>Peter Joshua Jornales</h1>
+        <p><b>Address:</b> 247 Zone 4, San Isidro Naga City, Philippines</p>
+        <p><b>Contact Information:</b> Phone: 09948803980 | Email: <a href="mailto:pjornales@gbox.adnu.edu.ph">pjornales@gbox.adnu.edu.ph</a></p>
+        <hr>
+        <p class="personal-statement">I am passionate about technology and solving problems. With a strong background in computer science and hands-on experience in web development, I'm ready to tackle new challenges and make a positive impact. I believe in working hard, learning continuously, and contributing to a team's success. I'm excited for the opportunity to bring my skills to your company and grow together.</p>
+        <hr>
+        <h2>Educational History</h2>
+        <ul>
+            <li>High School Diploma - University Of Nueva (2016-2022)</li>
+        </ul>
+        <hr>
+        <h2>Skills</h2>
+        <h3>General Skills</h3>
+        <ol>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+        </ol>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Web Development</li>
+            <li>Database Management</li>
+            <li>Programming in Python</li>
+        </ul>
+        <hr>
+        <h2>Character References</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Relationship</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>Cristine Refuerzo</td>
+                <td>College Professor</td>
+                <td>crefuerzo@gbox.adnu.edu.ph</td>
+            </tr>
+            <tr>
+                <td>Raphael Henry GARAY</td>
+                <td>College Professor</td>
+                <td>rgaray@gbox.adnu.edu.ph</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Work Experience</h2>
+        <p><b>Software Developer</b> at XYZ Corp, 2019-Present</p>
+        <p><i>Developed numerous software solutions, leading to a 20% increase in company efficiency.</i></p>
+    </div>
+</body>
+</html>
